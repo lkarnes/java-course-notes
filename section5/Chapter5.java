@@ -1,4 +1,3 @@
-package section5;
 
 public class Chapter5 {
     
