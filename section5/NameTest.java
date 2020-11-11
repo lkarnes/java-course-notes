@@ -7,5 +7,10 @@ public class NameTest {
         Name yourName = new Name("Isa", "Diana", "Hoernig");
         Name aName = new Name("Durk");
         System.out.println("my Name:" + myName.toString());
+        System.out.println(myName.getFirst());
+        myName.setFirst("Lowgen");
+        System.out.println(myName.toString());
+        myName.setName("Loggen","Dan","Blarnes");
+        System.out.println(myName.toString());
     }
 }
