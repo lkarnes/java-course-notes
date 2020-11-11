@@ -10,6 +10,6 @@ public class MixedMatched {
         int num2;
         char c = 'c';
         num = c; 
-        System.out.println(num);
+        System.out.print(num);
     }
 }
