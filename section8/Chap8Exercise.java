@@ -9,28 +9,21 @@ public class Chap8Exercise {
         System.out.println("Lets Play a guessing game you have three tries");
         System.out.println("What is the name of the computer that played Jeopardy?");
         response = input.nextLine();
-        if(response.equals(answer))
-        {
+        if(response.equals(answer)){
             System.out.print(correct);
-        }
-        else
+        }else
         {
             System.out.print("Wrong! next hint it starts with W: ");
             response = input.nextLine();
-            if(response.equals(answer))
-            {
+            if(response.equals(answer)){
                 System.out.print(correct);  
-            }
-            else
+            }else
             {
                 System.out.print("Wrong again! next hint is it ends with N: ");
                 response = input.nextLine();
-                if(response.equals(answer))
-                {
+                if(response.equals(answer)){
                     System.out.print(correct);
-                }
-                else
-                {
+                }else{
                     System.out.print("Wrong! the answer is " + answer + "! Nice Try!");
                 }
             }
