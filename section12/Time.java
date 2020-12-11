@@ -106,4 +106,12 @@ public class Time {
             minutes -= 60;
         }
     }
+    public boolean equals(Time t1){
+        int tSeconds = (hours * 60 * 60) + (minutes * 60) + seconds;
+        int t1Seconds = (t1.hours * 60 * 60) + (t1.minutes * 60) + t1.seconds;
+        if(tSeconds == t1Seconds)
+            return true;
+        else
+            return false;
+    }
 }

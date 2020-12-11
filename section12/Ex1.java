@@ -10,5 +10,7 @@ public class Ex1 {
         System.out.println(calculator.show());
         calculator.divided(2);
         System.out.println(calculator.show());
+        calculator.clear();
+        System.out.println(calculator.show());
     }
 }

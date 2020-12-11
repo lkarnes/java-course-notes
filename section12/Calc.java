@@ -18,4 +18,7 @@ public class Calc {
     public double show(){
         return number;
     }
+    public void clear(){
+        number = 0;
+    }
 }
